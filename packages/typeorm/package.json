@@ -1,0 +1,43 @@
+{
+  "name": "@buny/typeorm",
+  "description": "typeorm module for BunyJS",
+  "version": "1.0.0",
+  "homepage": "https://database.bunyjs.com/packages/typeorm",
+  "repository": "https://github.com/bunyjs/database/tree/main/packages/typeorm",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "typeorm": "^0.3.20"
+  },
+  "peerDependencies": {
+    "@buny/di": "file:../../../buny/packages/di",
+    "@buny/ioc": "file:../../../buny/packages/ioc",
+    "@buny/core": "file:../../../buny/packages/core",
+    "@buny/config": "file:../../../buny/packages/config",
+    "@buny/logger": "file:../../../buny/packages/logger",
+    "@buny/event": "file:../../../buny/packages/event",
+    "@buny/shared": "file:../../../buny/packages/shared"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "buny",
+    "typeorm"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}
