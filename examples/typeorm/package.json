@@ -1,0 +1,24 @@
+{
+  "name": "@examples/typeorm",
+  "type": "module",
+  "main": "source/app.ts",
+  "scripts": {
+    "dev": "buny dev",
+    "start": "buny start"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
+  },
+  "peerDependencies": {
+    "@bunyjs/typeorm": "*",
+    "@bunyjs/config": "*",
+    "@bunyjs/core": "*",
+    "@bunyjs/di": "*",
+    "@bunyjs/event": "*",
+    "@bunyjs/ioc": "*",
+    "@bunyjs/logger": "*",
+    "@bunyjs/utility": "*"
+  },
+  "private": true
+}
